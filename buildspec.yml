@@ -19,5 +19,5 @@ phases:
       - hugo
   post_build:
     commands:
-     - aws s3 sync --delete public s3://hugo-website-deploy
+     - aws s3 sync --delete public s3://hugoweb
      - echo Build completed on `date`
